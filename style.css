@@ -78,6 +78,17 @@ main .container iframe
     width: 90%;
     height: 600px;    
 }
+
+main #detalhe
+{
+    background: #0dd;
+    color: black;
+    font-weight: 900;
+    padding: 15px;
+    font-size: 22px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
 .bigger
 {
     font-size: 28px;
