@@ -14,7 +14,11 @@
 <body>
     <h1>Olá Mundo!</h1>
     <?php
-        echo "Olá Mundo!";
+        $teste = 'Mundo';
+        echo "<p>Olá $teste!</p>";
+        print("<p>Olá $teste!</p>");
     ?>
+    <!-- Tembem pode funcionar <? ?>, mas alguns servidores não aceitão este shortcut-->
+    <p>Pronto! Me livrei de uma maldição!</p>
 </body>
 </html>

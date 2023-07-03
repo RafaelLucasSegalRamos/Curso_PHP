@@ -76,7 +76,8 @@ main .container
 main .container iframe
 {
     width: 90%;
-    height: 600px;    
+    height: 600px;   
+    margin: 20px 0;; 
 }
 
 main #detalhe
