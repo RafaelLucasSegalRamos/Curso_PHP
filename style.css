@@ -88,6 +88,9 @@ main #detalhe
     font-size: 22px;
     margin: 10px auto;
     border-radius: 10px;
+    max-width: 1200px;
+    text-align: center;
+
 }
 .bigger
 {
