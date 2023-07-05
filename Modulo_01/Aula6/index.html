@@ -27,6 +27,8 @@
             align-items: center;
             min-height: 100vh;
             overflow-x: hidden;
+            background: cover no-repeat center center fixed;
+            flex-direction: column;
         }
         form
         {
@@ -37,7 +39,7 @@
             width: 60%;
             padding: 20px;
             border-radius: 50px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            box-shadow: 0 0 20px rgba(10l0,100,100,0.5);
             display: flex;
             flex-direction: column;
             justify-content: space-around;
@@ -54,7 +56,7 @@
             background: #222;
             color: #0ff;
             font-family: var(--pop);
-            transition: 0.5s;
+            transition: 0.25s;
         }
 
         form input:focus
@@ -90,16 +92,20 @@
     </style>
 </head>
 <body>
-    
-    <form action="pega.php">
-        <input type="text" placeholder="Coloque seu nome" required>
-        <input type="text" placeholder="Coloque seu sobrenome" required>
-        <input type="email" placeholder="Coloque seu email">
+    <!-- 
+        Existem dois tipos de metodos(method) para forms:
+        - GET: Pega os dados e envia para a URL
+        - POST: Pega os dados e envia para o servidor
+     -->
+    <form method="get" action="pega.php">
+        <input name='nome' type="text" placeholder="Coloque seu nome" required id="idnome">
+        <input name="sobrenome" type="text" placeholder="Coloque seu sobrenome" required id="idsbnome">
+        <input name='email' type="email" placeholder="Coloque seu email" id="idemail">
         
-        <textarea name="desc" id="des"></textarea>
+        <textarea name="desc" id="iddes"></textarea>
         <input type="submit" value="Enviar">
     </form>
-
+    <a href="../Aula7/">Link para proxima aula.</a>
 
 </body>
 </html>
