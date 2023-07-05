@@ -21,14 +21,16 @@
 </head>
 <body>
     <h1>Olá Mundo!</h1>
+    
     <?php
-        $teste = 'Mundo';
-        echo "<p>Olá $teste\u{1F30E}! Utilizando o echo</p>";
-        print("<p>Olá $teste\u{1F30E}! Utilizando o print</p>");
-        // phpinfo(); Dá pra utilizar para ver as configurações do Server que foi instalado o PHP
+        date_default_timezone_set('America/Sao_Paulo');
+
+        print('Horários e Datas:');
+        echo 'Hoje é dia:'. date("D/M/Y");
+        echo '<br>E são :'. date("G:i:s T");
     ?>
-    <a href="../Aula2/">Link para proxima aula.</a>
     <!-- Tembem pode funcionar <? ?>, mas alguns servidores não aceitarão este shortcut-->
-    <p>Pronto! Me livrei de uma maldição!</p>
+    <br>
+    <a href="../Aula3/">Link para proxima aula.</a>
 </body>
 </html> 
