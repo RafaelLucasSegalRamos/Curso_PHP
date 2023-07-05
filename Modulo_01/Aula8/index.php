@@ -52,6 +52,7 @@
 
                 // E essas são as funções aritiméticas que podem ajudar na hora de fazer calculos matematicos.
 
+                
             ?>
         </div>
         <a href="../Aula9/">Link para proxima aula.</a>
