@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root
+{
+    --pop: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #222;
+    color: #fff;
+    font-family: var(--pop);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: cover no-repeat center center fixed;
+    flex-direction: column;
+}
+form
+{
+    width: 500px;
+    margin: 50px auto;
+    background-color: #777;
+    height: 500px;
+    width: 60%;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(10l0,100,100,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+form input
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    background: #222;
+    color: #0ff;
+    font-family: var(--pop);
+    transition: 0.25s;
+}
+
+form input:focus
+{
+    background-color: #0ff;
+    color: #222;
+}
+
+form input::placeholder
+{
+    color: #0ff6;
+    font-family: var(--pop);
+}
+form textarea
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    background: #222;
+    color: #0ff;
+    resize: none;
+    height: 100px;
+    transition: 0.5s;
+}
+form textarea:focus
+{
+    background-color: #0ff;
+    color: #222;
+}
+a {
+    color: lightblue;
+}
+
+a:visited {
+    color: lightblue;
+    font-weight: bolder;
+}
+
+header
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+
+main
+{
+    width: 90%;
+    min-height: 80vh;
+    background: #555;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+main p.descri
+{
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+p.descri .nom
+{
+    font-weight: bold;
+    color: yellowgreen;
+    transition: 0.5s;
+}
+
+
+
+p.descri .sobrenom
+{
+    font-weight: bold;
+    color: rgb(181, 116, 241);
+    transition: 0.5s;
+}
+
+
+p.descri .email
+{
+    font-weight: bold;
+    color:  teal;
+    transition: 0.5s;
+}
+
+
+p.descri .de
+{
+    font-weight: bold;
+    color: chocolate;
+    transition: 0.5s;
+}
+
+p.descri span:hover
+{
+    filter: hue-rotate(180deg);
+}
