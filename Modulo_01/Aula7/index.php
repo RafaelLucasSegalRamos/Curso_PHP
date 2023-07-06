@@ -21,6 +21,7 @@
         echo "<p>O resultado é: $res</p>";
         ?>
         <a href="../Aula8/">Link para proxima aula.</a>
+        <p><a href="../../">Voltar a pagina principal</a></p>
     </main>
     
 </body>

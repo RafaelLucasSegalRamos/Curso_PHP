@@ -24,11 +24,10 @@ body
 }
 form
 {
-    width: 500px;
+    width: 80%;
     margin: 50px auto;
     background-color: #777;
     height: 500px;
-    width: 60%;
     padding: 20px;
     border-radius: 50px;
     box-shadow: 0 0 20px rgba(10l0,100,100,0.5);
@@ -83,6 +82,7 @@ form textarea:focus
 }
 a {
     color: lightblue;
+    text-align: center;
 }
 
 a:visited {
@@ -108,6 +108,7 @@ main
     background: #555;
     border-radius: 50px;
     padding: 20px;
+    margin: 20px;
 }
 
 main p.descri
@@ -171,4 +172,12 @@ div.roller
 {
     height: 600px;
     overflow-y: scroll;
+}
+
+main h1
+{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
 }

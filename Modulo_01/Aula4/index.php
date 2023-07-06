@@ -85,6 +85,7 @@
     <!-- Tembem pode funcionar <? ?>, mas alguns servidores não aceitarão este shortcut-->
     <br>
     <a href="../Aula5/">Link para proxima aula.</a>
+    <p><a href="../../">Voltar a pagina principal</a></p>
 </body>
 
 </html>

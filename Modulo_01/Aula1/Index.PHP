@@ -30,5 +30,6 @@
     <a href="../Aula2/">Link para proxima aula.</a>
     <!-- Tembem pode funcionar <? ?>, mas alguns servidores não aceitarão este shortcut-->
     <p>Pronto! Me livrei de uma maldição!</p>
+    <p><a href="../../">Voltar a pagina principal</a></p>
 </body>
 </html> 
