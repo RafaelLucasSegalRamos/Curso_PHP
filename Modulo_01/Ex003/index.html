@@ -12,7 +12,8 @@
 
         <form action="converte.php" method="post">
             <label for="nume">Quantos reais você tem?</label>
-            <input type="number" name="nume" id="num" placeholder="0">
+            <input type="number" name="nume" id="num" placeholder="0" step="0.01">
+            <!-- Utilizando o step é possivel fazer o input:number aceitar valores decimais. -->
             <input type="submit" value="Enviar">
             <p><i>OBS: A cotação usada neste exercicio é <strong>fixa</strong>, ou seja, pode ser que esteja desatualizada quando ver este exercicio.</i></p>
         </form>

@@ -83,6 +83,7 @@ form textarea:focus
 a {
     color: lightblue;
     text-align: center;
+    text-decoration: none;
 }
 
 a:visited {
@@ -170,8 +171,14 @@ p
 
 div.roller
 {
-    height: 600px;
+    height: 400px;
     overflow-y: scroll;
+    border: 5px solid #111;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 main h1
@@ -180,4 +187,20 @@ main h1
     font-weight: bold;
     text-align: center;
     margin: 20px 0;
+}
+
+button.recarrega
+{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-align: justify;
+    margin: 10px auto;
+    padding: 20px;
+    background: #777;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(00,00,00,0.3);
+    text-align: center;
+    color: white;
+    width: 100%;
+    cursor: pointer;
 }
