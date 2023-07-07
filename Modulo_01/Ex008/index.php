@@ -14,10 +14,10 @@
         
     ?>
     <main>
-        <h1>Informe seu sálario</h1>
+        <h1>Analizando Raizes</h1>
         
         <form action="<?= $_SERVER["PHP_SELF"] ?>" method="post">
-            <label for="num">Digite um número para saber sua raiz quadrada e sua raiz cúbica:</label>
+            <label for="num" class="grande">Digite um número para saber sua raiz quadrada e sua raiz cúbica:</label>
             <input type="number" name="num" id="num" step="0.01" min="0" value="<?= $num?>">
             
             <input type="submit" value="Calcular">
