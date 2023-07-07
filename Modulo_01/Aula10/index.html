@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style2.css">
+    <title>Mandando valores para o .php</title>
+</head>
+<body>
+    <main>
+        <form action="indexp.php?nom=Ana&idade=45" method="post">
+            <!-- Colocando os parametros na URL direta do arquivo .php, faz com esses parametros sejam enviados no $_GET, enquanto os que forem mandados pelo submit estarão na superglobal $_POST -->
+            <label for="nome">Coloque um nome na caixa abaixo</label>
+            <input type="text" name="nome" id="no">
+            <label for="senha">Digite a senha:</label>
+            <input type="password" name="senha" id="senha">
+
+            <input type="submit" value="Enviar">
+        </form>
+        <p><a href="../Aula11/">Link para proxima aula.</a></p>
+        <p><a href="../../">Voltar a pagina principal</a></p>
+    </main>
+</body>
+</html>
