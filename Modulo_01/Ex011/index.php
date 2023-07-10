@@ -20,8 +20,8 @@
         <form action="<?= $_SERVER["PHP_SELF"] ?>" method="post">
             <label for="preco">Preço do produto(R$)</label>
             <input type="number" name="preco" id="preco" placeholder="0" value="<?=$preco?>">
-            <label for="ran">Porcentagem de reajuste(<?=$porcentagem?>%)</label>
-            <input type="range" name="ran" id="ran" maxlength="100" value="<?=$porcentagem?>">
+            <label for="ran">Porcentagem de reajuste(<strong><span id="p"><?=$porcentagem?></span>%</strong>)</label>
+            <input type="range" name="ran" id="ran" maxlength="100" value="<?=$porcentagem?>" oninput="MudaValor()">
             
             <input type="submit" value="Calcular">
         </form>
@@ -36,5 +36,10 @@
         <p><a href="../../">Voltar a pagina principal</a></p>
     </main>
 </body>
+    <script>
+        function MudaValor(){
+            p.innerText = ran.value;
 
+        }
+    </script>
 </html>

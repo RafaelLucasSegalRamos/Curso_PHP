@@ -18,7 +18,7 @@
         
         <form action="<?= $_SERVER["PHP_SELF"] ?>" method="post">
             <label for="saque">Qual o valor a ser sacado?</label>
-            <input type="number" name="saque" id="saque" value="<?=$dinsaq?>">
+            <input type="number" name="saque" id="saque" value="<?=$dinsaq?>" >
             <input type="submit" value="Calcular">
         </form>
         <div class="resultfinal">
@@ -32,7 +32,7 @@
                 $notas10 = intdiv((($dinsaq % 100) % 50) % 20, 10);
                 $notas5 = intdiv(((($dinsaq % 100) % 50) % 20) % 10, 5);
                 $notas2 = intdiv((((($dinsaq % 100) % 50) % 20) % 10) % 5, 2);
-                $moedas1 = intdiv((((($dinsaq % 100) % 50) % 20) % 10) % 5, 1);
+                $moedas1 = intdiv(((((($dinsaq % 100) % 50) % 20) % 10) % 5) % 2, 1);
 
                 echo "<ul><li>x$notas100 notas de R$100,00</li>";
                 echo "<li>x$notas50 notas de R$50,00</li>";
