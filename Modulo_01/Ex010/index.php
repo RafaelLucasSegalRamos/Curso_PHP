@@ -19,7 +19,7 @@
         
         <form action="<?= $_SERVER["PHP_SELF"] ?>" method="post">
             <label for="anonas">Em que ano você nasceu?</label>
-            <input type="number" name="anonas" id="anonas" value="<?=$anonas?>">
+            <input type="number" name="anonas" id="anonas" value="<?=$anonas?>" max="<?=$datatoday?>">
             <label for="year" class="grande">Quer saber sua idade para que ano?(Atualmete estamos em <?=$datatoday?>)</label>
            <input type="number" name="year" id="year" value="<?=$data?>">
             

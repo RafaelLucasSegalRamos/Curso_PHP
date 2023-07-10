@@ -22,9 +22,9 @@
         
         <form action="<?= $_SERVER["PHP_SELF"] ?>" method="post">
             <label for="num">1° Número</label>
-            <input type="number" name="num1" id="num1" min="0" value="<?= $num1?>">
+            <input type="number" name="num1" id="num1" min="0" value="<?= $num1?>" required>
             <label for="num">2° Número</label>
-            <input type="number" name="num2" id="num2" min="0" value="<?= $num2?>">
+            <input type="number" name="num2" id="num2" min="0" value="<?= $num2?>" required>
             <label for="num">1° Peso</label>
             <input type="number" name="pes1" id="pes1" min="1" value="<?= $pes1?>">
             <label for="num">2° Peso</label>
